@@ -25,3 +25,9 @@ console.log(booleanIsLoggedIn);
 let isLoggedInString = ""
 let booleanIsLoggedInString = Boolean(isLoggedInString);
 console.log(booleanIsLoggedInString);
+
+// *************      number to string    **************
+let someNumber = 33
+let someNumberString = String(someNumber)
+console.log(someNumberString);
+console.log(typeof(someNumberString));
