@@ -39,3 +39,32 @@ function loginUserMessage(username = "sam"){
 
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
+
+
+function calculateCartPrice(vak1,val2,...num1) {
+    return num1
+}
+// console.log(calculateCartPrice(200,300,190,5430,2303));
+
+
+const testUser = {
+    userName: "Prabhat",
+    userAge: 21
+}
+
+function onboardingUser(anyObject) {
+    console.log(`User ${anyObject.userName} having age ${anyObject.userAge} has successfully onboarded`);
+}
+// onboardingUser(testUser)
+
+// onboardingUser({
+//     userName: "Ananya",
+//     userAge: 21
+// })
+
+const myNewArray = [243,542,4242,324]
+function returnsArrayValue(anyArray) {
+    return anyArray[2]
+}
+// console.log(returnsArrayValue([100,332,534,4321]));
+console.log(returnsArrayValue(myNewArray));
